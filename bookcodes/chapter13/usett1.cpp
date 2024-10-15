@@ -4,8 +4,11 @@
 
 int main ( void )
 {
+    int a;
     using std::cout;
     using std::endl;
+    using std::cin;
+    cin >> a;
     TableTennisPlayer player1("Tara", "Boomdea", false);
     RatedPlayer rplayer1(1140, "Mallory", "Duck", true);
     rplayer1.Name();          // derived object uses base method
@@ -27,5 +30,6 @@ int main ( void )
     rplayer2.Name();
     cout << "; Rating: " << rplayer2.Rating() << endl;
     // std::cin.get();
+    system("pause");
     return 0;
 }

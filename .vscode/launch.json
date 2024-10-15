@@ -5,14 +5,14 @@
         "name": "(gdb) Launch",
         "type": "cppdbg",
         "request": "launch",
-        "program": "E:/Cpp-Primer-Plus-6th/myprogram.exe",
+        "program": "E:\\CPP_Primer\\Cpp-Primer-Plus-6th\\myprogram.exe",
         "args": [],
         "stopAtEntry": false,
-        "cwd": "${fileDirname}",
+        "cwd": "E:\\CPP_Primer\\Cpp-Primer-Plus-6th",
         "environment": [],
-        "console": "integratedTerminal", // 使用集成终端
+        "externalConsole": true,
         "MIMode": "gdb",
-        "miDebuggerPath": "C:\\MinGW\\bin\\gdb.exe", // 根据你的 MinGW 安装路径进行修改
+        "miDebuggerPath": "D:\\MinGW\\bin\\gdb.exe", // 根据你的 MinGW 安装路径进行修改
         "setupCommands": [
           {
             "description": "Enable pretty-printing for gdb",
@@ -23,4 +23,4 @@
         "preLaunchTask": "build" // 确保这里引用了正确的构建任务
       }
     ]
-  }
+}
